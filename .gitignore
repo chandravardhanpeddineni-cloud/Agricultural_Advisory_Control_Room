@@ -1,0 +1,13 @@
+node_modules/
+client/.vite/
+client/dist/
+backend/.venv/
+backend/.env
+backend/.chroma/
+backend/uploads/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/*.egg-info/
+*.py[cod]
+.DS_Store

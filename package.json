@@ -1,0 +1,10 @@
+{
+  "name": "agricultural-advisory-control-room",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev --prefix client\" \"npm run dev:api\"",
+    "dev:api": "cd backend && .venv/bin/uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
